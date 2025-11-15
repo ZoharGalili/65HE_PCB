@@ -21,4 +21,4 @@ this is a 65% hall effect keyboard pcb running [libhmk](https://github.com/peppa
 
 ### big thanks to peppapighs 
 
-I pretty much coppied the schematic design of the [HE60](https://github.com/peppapighs/HE60) xD.
+I pretty much coppied the schematic design of the [HE60](https://github.com/peppapighs/HE60) xD
