@@ -1,1 +1,0 @@
-# photos of some stuff
