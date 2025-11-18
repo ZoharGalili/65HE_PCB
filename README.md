@@ -4,8 +4,8 @@ this is a 65% hall effect keyboard pcb running [libhmk](https://github.com/peppa
 
 ## Board Renders
 
-[front](renders/front.jpg)
-[back](renders/back.jpg)
+[front](blob/main/renders/front.jpg)
+[back](blob/main/renders/back.jpg)
 
 ## Features
 
@@ -17,7 +17,7 @@ this is a 65% hall effect keyboard pcb running [libhmk](https://github.com/peppa
 
 ## Layout
 
-[layout](renders/layout.jpg)
+[layout](blob/main/renders/layout.jpg)
 
 ### big thanks to peppapighs 
 

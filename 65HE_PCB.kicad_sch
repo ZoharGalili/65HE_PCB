@@ -4,7 +4,120 @@
 	(generator_version "9.0")
 	(uuid "9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a")
 	(paper "A4")
+	(title_block
+		(title "the 65 HE keyboard PCB")
+		(date "2025-11-18")
+		(rev "1")
+		(company "Zohar Galili")
+	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -3760,6 +3873,18 @@
 		)
 		(uuid c489543f-e07f-4712-900d-58b121288fd8)
 	)
+	(rectangle
+		(start 31.75 107.95)
+		(end 63.5 139.7)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f1ec8a60-ce49-417d-a668-3e2f61ed4da1)
+	)
 	(text "Connector"
 		(exclude_from_sim no)
 		(at 31.75 25.4 0)
@@ -3771,6 +3896,18 @@
 			(justify left bottom)
 		)
 		(uuid "2335021b-da7f-4e6c-8c22-0df535794636")
+	)
+	(text "Power Test Points"
+		(exclude_from_sim no)
+		(at 31.75 107.95 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+		(uuid "25047a08-35ac-4b77-b733-fab832aaf8cb")
 	)
 	(text "1xx"
 		(exclude_from_sim no)
@@ -4134,6 +4271,16 @@
 	(no_connect
 		(at 107.95 49.53)
 		(uuid "dd94fbe4-dbe6-44a9-b3f2-c0ae690ad15e")
+	)
+	(wire
+		(pts
+			(xy 50.8 124.46) (xy 48.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00db6533-1a1f-4ca7-b0e2-cd44100b0001")
 	)
 	(wire
 		(pts
@@ -4507,6 +4654,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 118.11) (xy 48.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a95863-be4a-4495-913a-ca64911c10d2")
+	)
+	(wire
+		(pts
 			(xy 240.03 73.66) (xy 248.92 73.66)
 		)
 		(stroke
@@ -4784,6 +4941,16 @@
 			(type default)
 		)
 		(uuid "d7bf2d1b-f91b-4466-af8f-6a21fa0bb5b1")
+	)
+	(wire
+		(pts
+			(xy 50.8 130.81) (xy 48.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b1d27a-bb9d-40b7-8af7-0d0026008a30")
 	)
 	(wire
 		(pts
@@ -6513,6 +6680,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 50.8 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a54fd21-3a5c-4667-8093-7f45d9b56d6d")
+		(property "Reference" "#PWR025"
+			(at 50.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 55.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3917adf5-2607-471d-8e47-d53f71a4f709")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 248.92 127 270)
 		(unit 1)
@@ -7250,6 +7482,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 50.8 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66521e0d-08ab-4f60-8fb8-02c63916abe0")
+		(property "Reference" "#PWR026"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98ccf06-4136-400f-b730-1640265e3f74")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 69.85 270)
 		(unit 1)
@@ -7311,6 +7608,72 @@
 			(project ""
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
 					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "697e3262-e4d9-4989-afb9-427005d851b8")
+		(property "Reference" "TP1"
+			(at 43.18 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4430d225-c23d-4276-bed1-b483df40f145")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8052,6 +8415,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeea167a-6383-415f-96ef-50aef8ec7f0a")
+		(property "Reference" "TP2"
+			(at 43.18 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3VA"
+			(at 43.18 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ba8376c-181a-4e85-9ca2-4eb1b64683ec")
+		)
+		(instances
+			(project ""
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 195.58 62.23 0)
 		(unit 1)
@@ -8176,6 +8605,71 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b67b18e0-d4e7-4445-ad60-0f6e8811199f")
+		(property "Reference" "#PWR024"
+			(at 50.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9f4a64b-0ad9-435d-8532-0d6c4683db33")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8583,6 +9077,72 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dae6a3e3-6da7-4c10-9423-684e856edde6")
+		(property "Reference" "TP3"
+			(at 43.18 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 43.18 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a47db9f-8336-4f2a-8718-cf95bf787b08")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

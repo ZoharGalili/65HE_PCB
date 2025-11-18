@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1b12d80a-98d0-4377-abac-af93a9c8c7b6")
 	(paper "A2")
+	(title_block
+		(title "sensors and multiplexers")
+		(date "2025-11-18")
+		(rev "1")
+		(company "Zohar Galili")
+	)
 	(lib_symbols
 		(symbol "4xxx:4051"
 			(pin_names
@@ -381,6 +387,113 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2809,6 +2922,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 58.42) (xy 488.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22758fcd-a726-4cec-b2cd-5a1c6f9d0f2b")
+	)
+	(wire
+		(pts
 			(xy 384.81 180.34) (xy 391.16 180.34)
 		)
 		(stroke
@@ -2866,6 +2989,16 @@
 			(type default)
 		)
 		(uuid "2786730b-512f-4e3e-842c-3aff3ddba245")
+	)
+	(wire
+		(pts
+			(xy 336.55 58.42) (xy 336.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28763cbd-6024-47bb-a48a-87cb709393aa")
 	)
 	(wire
 		(pts
@@ -2959,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 58.42) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecd584e-3533-4739-8324-3b4fd5a7cc83")
+	)
+	(wire
+		(pts
 			(xy 251.46 231.14) (xy 257.81 231.14)
 		)
 		(stroke
@@ -3016,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "42c3f943-6647-4140-822e-4fd70a94a826")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ee1273-9b76-4082-84a0-8a84d53866c9")
 	)
 	(wire
 		(pts
@@ -3289,6 +3442,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 58.42) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae15790-691a-4ad1-bd70-a52ec995e04f")
+	)
+	(wire
+		(pts
 			(xy 271.78 231.14) (xy 276.86 231.14)
 		)
 		(stroke
@@ -3366,6 +3529,16 @@
 			(type default)
 		)
 		(uuid "7597c6b2-08ea-4f8e-a246-7efe2f63a1fe")
+	)
+	(wire
+		(pts
+			(xy 285.75 58.42) (xy 285.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e56f16-702a-425b-9830-cc39e319cb7e")
 	)
 	(wire
 		(pts
@@ -3699,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 58.42) (xy 387.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56f9d85-33de-421b-9105-437fbe9d6d57")
+	)
+	(wire
+		(pts
 			(xy 207.01 180.34) (xy 213.36 180.34)
 		)
 		(stroke
@@ -3839,6 +4022,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 58.42) (xy 438.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba93197b-3a99-4657-bc0d-64fbfa13b1ef")
+	)
+	(wire
+		(pts
 			(xy 295.91 205.74) (xy 302.26 205.74)
 		)
 		(stroke
@@ -3856,6 +4049,16 @@
 			(type default)
 		)
 		(uuid "baf58d8f-7cd0-4d54-bd21-c2deee072cb1")
+	)
+	(wire
+		(pts
+			(xy 133.35 58.42) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be35f19c-d109-47cd-b1e1-b5c9ed963089")
 	)
 	(wire
 		(pts
@@ -8769,6 +8972,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d7f6a9-03d1-44cb-8d26-0a9616aa1c69")
+		(property "Reference" "TP501"
+			(at 82.55 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM1"
+			(at 82.55 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1da10552-b66f-4a8d-96d0-38e6a0c75824")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 378.46 210.82 0)
 		(mirror y)
@@ -11326,6 +11593,70 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
 					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18005798-a94b-4a9d-8814-62ea54284b61")
+		(property "Reference" "TP502"
+			(at 133.35 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM2"
+			(at 133.35 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "528eaf7d-913a-4321-8724-6d98ad5fbc9c")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -17655,6 +17986,70 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
 					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 438.15 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bbe6faf-165e-46c1-bb39-5720ab5956c2")
+		(property "Reference" "TP508"
+			(at 438.15 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM8"
+			(at 438.15 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 433.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 433.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 438.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7a2386-6c19-45b4-98ad-bf6964464972")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP508")
 					(unit 1)
 				)
 			)
@@ -26308,6 +26703,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 234.95 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9897b659-d9f6-4825-94e8-c41d3010af2d")
+		(property "Reference" "TP504"
+			(at 234.95 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM4"
+			(at 234.95 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79d932ac-a345-4b71-8f36-967aae062c5c")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 336.55 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98afafb5-021a-44a4-8c64-1ac6bb11d8d4")
+		(property "Reference" "TP506"
+			(at 336.55 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM6"
+			(at 336.55 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 331.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 336.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "518e197b-83bf-4978-ac0b-61c87530f0c1")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 137.16 185.42 0)
 		(mirror y)
@@ -28122,6 +28645,70 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
 					(reference "#PWR0549")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e3dfca-e428-4bd9-9867-5144faa1a81f")
+		(property "Reference" "TP503"
+			(at 184.15 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM3"
+			(at 184.15 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e147037c-c6fc-48bd-8e14-cb41f47719a9")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP503")
 					(unit 1)
 				)
 			)
@@ -32516,6 +33103,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 285.75 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e8f84c-5df8-4513-b27d-0ab0016e479a")
+		(property "Reference" "TP505"
+			(at 285.75 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM5"
+			(at 285.75 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 285.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74fde18c-ca9f-4dfd-8a02-67d3c04d773b")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 133.35 226.06 0)
 		(mirror y)
@@ -34481,6 +35132,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7dce6e6-ddb8-4f08-9ea8-56a31c4ab1a7")
+		(property "Reference" "TP509"
+			(at 488.95 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM9"
+			(at 488.95 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 483.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 483.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e715664d-0dc5-4981-bc55-10f15c867f21")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-he:SW_MX_HE")
 		(at 350.52 241.3 0)
 		(unit 1)
@@ -35641,6 +36356,70 @@
 			(project "65HE_PCB"
 				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
 					(reference "#PWR0561")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 387.35 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f30f5677-85c0-4bb3-acf4-f47f5fc81a77")
+		(property "Reference" "TP507"
+			(at 387.35 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM7"
+			(at 387.35 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 382.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 387.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8484ee78-aa2e-4c2d-961d-2300d54e88ae")
+		)
+		(instances
+			(project "65HE_PCB"
+				(path "/9f66ba49-1f22-4b6f-a8b4-c29b9684ab2a/6b9213c9-71cd-4d23-8ea5-849170916ca0"
+					(reference "TP507")
 					(unit 1)
 				)
 			)
